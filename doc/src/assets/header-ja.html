@@ -22,56 +22,7 @@
 </script>
 $treeview
 $search
-<!-- load mathjax -->
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
-<script>
-  MathJax = {
-      options: {
-          ignoreHtmlClass: 'tex2jax_ignore',
-          processHtmlClass: 'tex2jax_process'
-      loader: { load: ['[tex]/ams','[tex]/physics'] },
-      tex: {
-          // base
-          packages: {'[+]': ['base','ams','physics'] },
-          // start/end delimiter pairs for in-line math
-          inlineMath: [['\\(', '\\)'], ['$', '$']],
-          // start/end delimiter pairs for display math
-          displayMath: [['$$', '$$'],['\\[', '\\]']],
-          // use \$ to produce a literal dollar sign
-          processEscapes: true,
-          // process \begin{xxx}...\end{xxx} outside math mode
-          processEnvironments: true,
-          // process \ref{...} outside of math mode
-          processRefs: true,
-          // pattern for recognizing numbers
-          digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
-          // or 'ams' or 'all'
-          tags: 'none',
-          // side for \tag macros
-          tagSide: 'right',
-          // amount to indent tags
-          tagIndent: '0.8em',
-          // use label name rather than tag for ids
-          useLabelIds: true,
-          // maximum number of macro substitutions per expression
-          maxMacros: 1000,
-          // maximum size for the internal TeX string (5K)
-          maxBuffer: 5 * 1024,
-          // ams
-          ams: {
-              multlineWidth: '100%',
-              multlineIndent: '1em'
-          },
-          // physics
-          physics: {
-              italicdiff: false,
-              arrowdel: false
-          },
-      }
-  };
-</script>
-<!-- /load local MathJax -->
+$mathjax
 <link href="$relpath^$stylesheet" rel="stylesheet" type="text/css" />
 $extrastylesheet
 </head>

@@ -1,0 +1,67 @@
+# COPYRIGHT and Licenses                                          {#COPYRIGHT}
+
+<!-- english bellow -->
+
+@ja
+## ライセンスファイルのフォーマットについて
+
+* `Machine-readable debian/copyright` 形式で記述しています.
+  詳細は https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+  をご覧下さい.
+* 世の中には MIT License と称する沢山の [派生ライセンス][MIT LICENSE FLABOR]
+  があります. 我々は Debian Project の copyright-format に従い,
+  ライセンス本文が元々の `MIT/X11 license` と合致する場合には,
+  `Expat` と表記しています.
+
+@endja
+@en
+## Note: about the license file format
+
+* We use `Machine-readable debian/copyright` format.
+  Please check
+  https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+  in detail.
+* There are many versions (flavor) of the [MIT license][MIT LICENSE FLABOR] .
+  So we follow Debian's copyright-format,
+  use `Expat` when it matches original `MIT/X11 license`.
+
+@enden
+
+## COPYRIGHT and License
+
+~~~~
+Files: *
+Copyright: 2002-2023 Youhei SASAKI.
+License: Expat
+
+Files: doc/src/assets/doxygen-awesome-v2.2.0/*
+Copyright: 2021 - 2023 jothepro
+License: Expat
+Comment: Upstream url is https://jothepro.github.io/doxygen-awesome-css/
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining
+ a copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be
+ included in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+~~~~
+
+
+[MIT LICENSE FLABOR]: https://en.wikipedia.org/wiki/MIT_License#Various_versions
+<!-- Local Variables: -->
+<!-- mode: markdown -->
+<!-- End: -->
