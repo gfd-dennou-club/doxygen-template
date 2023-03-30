@@ -1,0 +1,56 @@
+<!-- HTML footer for doxygen 1.9.4-->
+<!-- start footer part -->
+<!--BEGIN GENERATE_TREEVIEW-->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    $navpath
+    <li class="footer">
+      &copy; 2002-2023 Gtool Development Group/GFD Dennou Club staff:
+      <img src="dcstaff_email.png" alt="contact" class="contact">
+      <br/>
+      Lastupdate: $datetime,
+      Since Thu Mar 17 2004. <wbr/>
+      $generatedby
+      <a href="https://www.doxygen.org/index.html">
+        <img class="footer" src="$relpath^doxygen.svg" width="104" height="31" alt="doxygen"/>
+      </a>
+      $doxygenversion
+      with
+      <a href="https://jothepro.github.io/doxygen-awesome-css/">
+        Doxygen Awesome
+      </a>
+      v2.2.0
+    </li>
+  </ul>
+</div>
+<!--END GENERATE_TREEVIEW-->
+<!--BEGIN !GENERATE_TREEVIEW-->
+<hr class="footer"/>
+<address class="footer">
+  <small>
+    &copy; 2002-2023 Gtool Development Group/GFD Dennou Club staff:
+    <img src="./dcstaff_email.png" hegiht="1em" alt="contact" class="contact">
+    <br/>
+    $generatedby&#160;<a href="https://www.doxygen.org/index.html">
+      <img class="footer" src="$relpath^doxygen.svg" width="104" height="31" alt="doxygen"/></a>
+    $doxygenversion
+    with
+    <a href="https://jothepro.github.io/doxygen-awesome-css/">
+      Doxygen Awesome
+    </a>
+    v2.2.0
+  </small>
+</address>
+<!--END !GENERATE_TREEVIEW-->
+</body>
+<script>
+  if ( location.protocol == "file:") {
+      $("nav").css("display", "none");
+  }
+  $(document).ready(function(){
+      var pathname = location.pathname;
+      $("a#dcEnLinkSwitch").attr('href', pathname.replace(/\/ja\//,"/en/"));
+      $("a#dcJaLinkSwitch").attr('href', pathname.replace(/\/en\//,"/ja/"));
+  });
+</script>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="light-mode">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen $doxygenversion"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!--BEGIN PROJECT_NAME--><title>$projectname: $title</title><!--END PROJECT_NAME-->
+<!--BEGIN !PROJECT_NAME--><title>$title</title><!--END !PROJECT_NAME-->
+<link href="$relpath^tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="$relpath^jquery.js"></script>
+<script type="text/javascript" src="$relpath^dynsections.js"></script>
+<script type="text/javascript" src="$relpath^doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="$relpath^doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="$relpath^doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript">
+  DoxygenAwesomeFragmentCopyButton.init()
+  DoxygenAwesomeParagraphLink.init()
+  DoxygenAwesomeInteractiveToc.init()
+</script>
+$treeview
+$search
+<!-- load mathjax -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+      options: {
+          ignoreHtmlClass: 'tex2jax_ignore',
+          processHtmlClass: 'tex2jax_process'
+      }
+      loader: { load: ['[tex]/ams','[tex]/physics'] },
+      tex: {
+          // base
+          packages: {'[+]': ['base','ams','physics'] },
+          // start/end delimiter pairs for in-line math
+          inlineMath: [['\\(', '\\)'], ['$', '$']],
+          // start/end delimiter pairs for display math
+          displayMath: [['$$', '$$'],['\\[', '\\]']],
+          // use \$ to produce a literal dollar sign
+          processEscapes: true,
+          // process \begin{xxx}...\end{xxx} outside math mode
+          processEnvironments: true,
+          // process \ref{...} outside of math mode
+          processRefs: true,
+          // pattern for recognizing numbers
+          digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,
+          // or 'ams' or 'all'
+          tags: 'none',
+          // side for \tag macros
+          tagSide: 'right',
+          // amount to indent tags
+          tagIndent: '0.8em',
+          // use label name rather than tag for ids
+          useLabelIds: true,
+          // maximum number of macro substitutions per expression
+          maxMacros: 1000,
+          // maximum size for the internal TeX string (5K)
+          maxBuffer: 5 * 1024,
+          // ams
+          ams: {
+              multlineWidth: '100%',
+              multlineIndent: '1em'
+          },
+          // physics
+          physics: {
+              italicdiff: false,
+              arrowdel: false
+          },
+      }
+  };
+</script>
+<!-- /load local MathJax -->
+<link href="$relpath^$stylesheet" rel="stylesheet" type="text/css" />
+$extrastylesheet
+</head>
+<body>
+
+<!--BEGIN TITLEAREA-->
+<div id="titlearea" style="display: flex;">
+  <table cellspacing="0" cellpadding="0" style="flex: auto;">
+    <tbody>
+      <tr style="height: 56px;">
+        <!--BEGIN PROJECT_LOGO-->
+        <td id="projectlogo"><img alt="Logo" src="$relpath^$projectlogo"/></td>
+        <!--END PROJECT_LOGO-->
+        <!--BEGIN PROJECT_NAME-->
+        <td id="projectalign" style="padding-left: 0.5em;">
+          <div id="projectname">$projectname
+            <!--BEGIN PROJECT_NUMBER-->&#160;<span id="projectnumber">$projectnumber</span><!--END PROJECT_NUMBER-->
+          </div>
+          <!--BEGIN PROJECT_BRIEF--><div id="projectbrief">$projectbrief</div><!--END PROJECT_BRIEF-->
+        </td>
+        <!--END PROJECT_NAME-->
+        <!--BEGIN !PROJECT_NAME-->
+        <!--BEGIN PROJECT_BRIEF-->
+        <td style="padding-left: 0.5em;">
+          <div id="projectbrief">$projectbrief</div>
+        </td>
+      <!--END PROJECT_BRIEF-->
+        <!--END !PROJECT_NAME-->
+        <!--BEGIN DISABLE_INDEX-->
+        <!--BEGIN SEARCHENGINE-->
+        <td>$searchbox</td>
+        <!--END SEARCHENGINE-->
+        <!--END DISABLE_INDEX-->
+      </tr>
+    </tbody>
+  </table>
+  <span>
+    <a id="dcJaLinkSwitch" href="/" style="flex: auto; text-align: right;">日本語</a>
+  </span>
+</div>
+<!--END TITLEAREA-->
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<!-- end header part -->
